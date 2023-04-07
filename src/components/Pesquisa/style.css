@@ -1,0 +1,35 @@
+.display_livros {
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    justify-content: center ;
+    align-items: center;
+    gap: 4px 15px;
+    width: 90vw;
+    padding: 0;
+}
+
+.imagem_livro {
+    border-radius: 20px;
+    width: 11vw;
+}
+.nome-do-livro{
+    padding: 9px 0 0 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color:#519872 ;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+}
+.nome-da-frnquia{
+    margin-top: 1px;
+    font-size: 14px;
+}
+.imagem_livro:hover{
+    scale: 1.1;
+    margin: 10px 0 10px 0;
+    transition: 200ms;
+    cursor: pointer;
+}

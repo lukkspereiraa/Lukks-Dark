@@ -1,0 +1,44 @@
+.exibicao {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    flex-direction: column;
+
+}
+
+.titulo {
+    background-color: #A4B494;
+    color: #fff;
+    margin: 0 0 2px 0;
+    width: 100vw;
+    padding: 20px 0;
+    font-size: 25px;
+    border-bottom: solid#519872 3px;
+}
+
+.exibicao_div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   
+}
+.exibicao-de-livros{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+    gap: 15px;
+
+}
+
+.nome-fraquia{
+    color: #3B5249;
+    font-size: 25px;
+    font-weight: 800; 
+    border: solid;
+    padding: 5px;
+    width: 50%;
+    border-radius: 20px;
+}

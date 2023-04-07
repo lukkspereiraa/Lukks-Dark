@@ -1,0 +1,39 @@
+.card{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.cad-div{
+    width: 70vw;
+    background-color: #A4B494;
+    margin: 0;
+    padding: 2vw;
+    border-radius: 20px;
+    border: solid 3px #519872;
+}
+
+.titulo_card{
+    margin: 1px;
+    color: #fff;
+    font-size: 30px;
+}
+.nome-do-livro{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.descriçao{
+    display: flex;
+    margin: 0 0 0 10px;
+    align-items: center;
+    color: #519872;
+    font-weight: 600;
+    
+}
+.card_descriçao-e-imagem{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
